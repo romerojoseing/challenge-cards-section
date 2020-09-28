@@ -1,8 +1,8 @@
-# Frontend Mentor Callenge: Social Media Dashboard
+# Frontend Mentor Callenge: Four card feature section
 
-_This is a challenge from website Frontend Mentor, specialized in frontend develop, is a dashboard to monitor the metrics in social networks of your account._
+_This is a challenge from website Frontend Mentor, specialized in frontend develop, is a Four card feature section._
 
-## [Try the live demo](https://romerojoseing.github.io/social-dashboard/) ⚡
+## [Try the live demo](https://romerojoseing.github.io/challenge-cards-section/) ⚡
 ![Thumbnail](https://github.com/romerojoseing/social-dashboard/blob/master/design/desktop-preview.jpg?raw=true)
 
 <br>
@@ -45,7 +45,6 @@ _Technologies used in the project:_
 
 * [HTML 5](https://es.wikipedia.org/wiki/HTML) - Layout and web structure.
 * [CSS 3](https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada) - Style design.
-* [JavaScript](https://es.wikipedia.org/wiki/JavaScript) - Animations and functionalities.
 
 <br>
 
