@@ -3,7 +3,7 @@
 _This is a challenge from website Frontend Mentor, specialized in frontend develop, is a Four card feature section._
 
 ## [Try the live demo](https://romerojoseing.github.io/challenge-cards-section/) ⚡
-![Thumbnail](https://github.com/romerojoseing/challenge-cards-section/blob/master/design/desktop-preview.jpg?raw=true)
+![Thumbnail](https://github.com/romerojoseing/challenge-cards-section/blob/master/design/capture.png?raw=true)
 
 <br>
 
