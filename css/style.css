@@ -1,0 +1,194 @@
+/*--------------------------------------------------------------
+# Font
+--------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+
+:root{
+--white: hsl(0, 0%, 100%);
+
+--red: hsl(0, 78%, 62%);
+--cyan: hsl(180, 62%, 55%);
+--orange: hsl(34, 97%, 64%);
+--blue: hsl(212, 86%, 64%);
+--darkBlue: hsl(234, 12%, 34%);
+--grayBlue: hsl(229, 6%, 66%);
+--lightGray: hsl(0, 0%, 98%);
+}
+
+
+
+/*--------------------------------------------------------------
+# Scroll
+--------------------------------------------------------------*/
+
+/* Tamaño del scroll */
+.scrollbar-rj::-webkit-scrollbar {
+  width: 8px;
+}
+
+ /* Estilos barra (thumb) de scroll */
+.scrollbar-rj::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.scrollbar-rj::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+.scrollbar-rj::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+ /* Estilos track de scroll */
+.scrollbar-rj::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 4px;
+}
+
+.scrollbar-rj::-webkit-scrollbar-track:hover, 
+.scrollbar-rj::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
+
+
+
+/*--------------------------------------------------------------
+# General Styles
+--------------------------------------------------------------*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--lightGray);
+}
+
+p{
+  color: var(--grayBlue);
+  font-weight: 400;
+}
+
+.wrapper{
+  padding: 0 25px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+.header{
+  margin: 50px auto;
+  text-align: center;
+  max-width: 500px;
+}
+
+h1{
+  font-weight: 200;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.subtitle{
+  margin: 20px 0px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Cards
+--------------------------------------------------------------*/
+
+.flex{
+  margin: 0 auto;
+  display: flex;
+  width: 1140;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card{
+  overflow: hidden;
+  background-color: var(--white);
+  padding: 2em;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 15px;
+  width: 350px;
+}
+
+.card:before{
+  content: "";
+  height: 5px;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.card.cyan::before{
+  background: var(--cyan);
+}
+
+.card.red::before{
+  background: var(--red);
+}
+
+.card.blue::before{
+  background: var(--blue);
+}
+
+.card.orange::before{
+  background: var(--orange);
+}
+
+.description{
+  margin: 15px 0px 40px 0px;
+}
+
+.card img{
+  display: block;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 1190px){
+  .card-move{
+  transform: translateY(50%);
+}
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.footer{
+  text-align: center;
+  margin: 70px 0px 40px 0px;
+  display: block;
+}
+
+.footer a{
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--cyan);
+}
